@@ -1,3 +1,3 @@
-NAME = screensaver 
-SRCS = screensaver_puls.c
+NAME = minirvSEMU 
+SRCS = minirvSEMU.c
 include $(AM_HOME)/Makefile
