@@ -12,3 +12,9 @@
 !.gitignore
 !init.sh
 /fceux-am
+
+# 例外：允许E4目录下的所有编译产物和build文件夹
+!E4/build/
+!E4/*.elf
+!E4/*.bin
+!E4/*.hex
