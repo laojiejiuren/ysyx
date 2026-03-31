@@ -1,13 +1,14 @@
-*.*
-*
-!*/
-!/nemu/*
-!/nexus-am/*
-!/nanos-lite/*
-!/navy-apps/*
-!/npc/*
-!Makefile
-!README.md
-!.gitignore
-!init.sh
-/fceux-am
+# 仅忽略编译生成的垃圾文件（不影响任何源代码/文件夹）
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+*.so
+*.d
+*.log
+*.swp
+*~
+.DS_Store
+build/
+*/build/
