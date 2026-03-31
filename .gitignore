@@ -1,14 +1,14 @@
-# 仅忽略编译生成的垃圾文件（不影响任何源代码/文件夹）
-*.elf
-*.bin
-*.hex
-*.o
-*.a
-*.so
-*.d
-*.log
-*.swp
-*~
-.DS_Store
-build/
-*/build/
+*.*
+*
+!*/
+!/nemu/*
+!/nexus-am/*
+!/nanos-lite/*
+!/navy-apps/*
+!/npc/*
+!/E4/*  # 新增：白名单E4.1目录下的所有文件
+!Makefile
+!README.md
+!.gitignore
+!init.sh
+/fceux-am
